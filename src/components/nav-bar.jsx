@@ -28,7 +28,7 @@ export default function NavBar() {
             Hi! I'm Lizzie
           </h1>
           <li>
-            <NavButton href="/CV" text="Check out my CV!" />
+            <NavButton href="/cv" text="Check out my CV!" />
           </li>
           <li>
             <NavButton

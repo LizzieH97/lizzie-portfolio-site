@@ -1,6 +1,5 @@
 import Background from "@/components/background";
 import NavBar from "@/components/nav-bar";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -9,9 +8,7 @@ export default function Home() {
       <main className="flex flex-col gap-0 p-0 m-0 row-start-1 col-start-1 col-span-full items-center sm:items-start">
         <NavBar />
       </main>
-      <footer className="row-start-3 col-span-full flex gap-6 flex-wrap items-center justify-center">
-        {/* Footer content here */}
-      </footer>
+      <footer className="row-start-3 col-span-full flex gap-6 flex-wrap items-center justify-center"></footer>
     </div>
   );
 }
