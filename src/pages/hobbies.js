@@ -4,7 +4,9 @@ import NavBar from "@/components/nav-bar";
 import { useState } from "react";
 
 export default function Hobbies() {
-  const subtitle = "col-start-1 text-xl font-bold text-white p-2";
+  const subtitle = "col-start-2 text-xl font-bold text-white p-2 pl-20";
+  const text =
+    "col-start-2 row-span-3 text-l font-bold text-white p-3 pt-[80px] text-center";
   return (
     <div className="grid grid-cols-[200px_auto_auto_auto] grid-rows-4 ">
       <Background /> <NavBar />
@@ -20,14 +22,32 @@ export default function Hobbies() {
           Etsy. I'm so proud of all of my little crocheted pals and I hope they
           all go to lovely homes!
         </p>
-        <div className="col-start-1 col-end-2 row-start-3 grid grid-cols-2 grid-rows-4">
+        <div className="col-span-2 row-start-3 grid grid-cols-3 grid-rows-[50px_auto_auto_auto]">
           <h2 className={subtitle}>Markets</h2>
-          <Image
-            src="/IMG_9203.jpg"
+          <p className={text}>
+            Here's a selection of photos from my markets - my very first market
+            in Warrington, a market in New Brighton and my Christmas market in
+            Salford Quays (I got very excited and went very festive!)
+          </p>
+          <img
+            src="/Screenshot from 2025-01-06 14-59-46.png"
             alt="Me at a market in the New Brighton Floral Pavillion, sat behind my stall"
-            width={400}
-            height={300}
-            layout="intrinsic"
+            className="col-start-1 row-start-3 rounded-lg"
+          />
+          <img
+            src="/Screenshot from 2025-01-06 14-58-51.png"
+            alt="Me at a market in the Lowry Outlet Mall, stood behind my stall"
+            className="col-start-3 row-start-2 rounded-lg"
+          />
+          <img
+            src="/Screenshot from 2025-01-06 14-58-03.png"
+            alt="My stall at a market in the Lowry Outlet Mall"
+            className="col-start-1 row-start-2 rounded-lg"
+          />
+          <img
+            src="/Screenshot from 2025-01-06 15-13-25.png"
+            alt="My stall at a market in Warrington, me and my fiance standing behind"
+            className="col-start-3 row-start-3 rounded-lg"
           />
         </div>
       </div>
