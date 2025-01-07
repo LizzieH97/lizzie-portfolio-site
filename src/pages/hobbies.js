@@ -10,7 +10,7 @@ export default function Hobbies() {
     <div className="grid grid-cols-[200px_auto_auto_auto] grid-rows-4 ">
       <Background />
       <NavBar />
-      <div className="col-start-2 row-start-1 grid grid-cols-4 grid-rows-auto justify-items-center">
+      <div className="col-start-2 row-start-1 grid grid-cols-4 grid-rows-auto justify-items-start">
         <h1 className="col-span-3 row-start-1 text-4xl font-bold text-white pt-1 p-1 underline">
           Crocheting
         </h1>
